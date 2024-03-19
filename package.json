@@ -1,0 +1,24 @@
+{
+  "name": "malvina-theme-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm-run-all --parallel tailwind watch",
+    "tailwind": "tailwindcss -i ./styles/style.css -o ./style.css --watch",
+    "watch": "browser-sync start --proxy 'localhost:8888/malvina-1' --files '**/*.css, **/*.html, **/*.php, **/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "daisyui": "^4.4.4",
+    "npm-run-all": "^4.1.5"
+  }
+}

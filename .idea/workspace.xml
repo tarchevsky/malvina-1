@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="757c49b1-7e7a-49d9-8f85-c60181211497" name="Changes" comment="Стили 404, footer, меню в header + functions.php, вывод статей на главной, шаблон about и переключатель тем">
+      <change afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxonomy-post_tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-about.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchform.php" beforeDir="false" afterPath="$PROJECT_DIR$/searchform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tarchevsky&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4188e7dc-8747-4e59-b8dc-60691b58e1d5" />
+        <option name="url" value="git@github.com:tarchevsky/teziscam-theme.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Yj84gRbkKVXhPvYGdYil40GrbB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/MAMP/htdocs/malvina-1/wp-content/themes/malvina-theme-1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="757c49b1-7e7a-49d9-8f85-c60181211497" name="Changes" comment="" />
+      <created>1701027439374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701027439374</updated>
+      <workItem from="1701027440423" duration="15511000" />
+      <workItem from="1701075933073" duration="18210000" />
+      <workItem from="1701104746218" duration="3734000" />
+      <workItem from="1701502747002" duration="3760000" />
+      <workItem from="1701692656305" duration="27000" />
+      <workItem from="1701857132923" duration="37135000" />
+      <workItem from="1702291021592" duration="86000" />
+      <workItem from="1702650575571" duration="1801000" />
+      <workItem from="1702986941836" duration="41000" />
+      <workItem from="1702987085952" duration="598000" />
+      <workItem from="1703682485991" duration="1527000" />
+      <workItem from="1703762668481" duration="6000" />
+      <workItem from="1703769664270" duration="2386000" />
+      <workItem from="1704373795555" duration="599000" />
+      <workItem from="1707338716197" duration="5437000" />
+      <workItem from="1707370827690" duration="17830000" />
+      <workItem from="1707563530154" duration="599000" />
+      <workItem from="1708005294659" duration="1049000" />
+      <workItem from="1708358686507" duration="7611000" />
+      <workItem from="1708505855630" duration="2976000" />
+      <workItem from="1709290684837" duration="13233000" />
+      <workItem from="1709375403941" duration="3020000" />
+      <workItem from="1709624755149" duration="628000" />
+      <workItem from="1710171794453" duration="3396000" />
+      <workItem from="1710219612903" duration="92000" />
+      <workItem from="1710219834709" duration="5819000" />
+      <workItem from="1710235088202" duration="11042000" />
+      <workItem from="1710331725947" duration="614000" />
+      <workItem from="1710419004509" duration="3575000" />
+      <workItem from="1710507194707" duration="76000" />
+      <workItem from="1710832046051" duration="863000" />
+    </task>
+    <task id="LOCAL-00001" summary="Стили 404, footer, меню в header + functions.php, вывод статей на главной, шаблон about и переключатель тем">
+      <option name="closed" value="true" />
+      <created>1701116853661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701116853661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Стили 404, footer, меню в header + functions.php, вывод статей на главной, шаблон about и переключатель тем">
+      <option name="closed" value="true" />
+      <created>1701116901213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701116901213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Исправлена ошибка с ? и написаны стили вывода постов на главной" />
+    <MESSAGE value="Стили 404, footer, меню в header + functions.php, вывод статей на главной, шаблон about и переключатель тем" />
+    <option name="LAST_COMMIT_MESSAGE" value="Стили 404, footer, меню в header + functions.php, вывод статей на главной, шаблон about и переключатель тем" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
