@@ -116,10 +116,16 @@
     <!-- Open the modal using ID.showModal() method -->
     <button class="btn btn-primary btn-lg mt-10 block m-auto" onclick="my_modal_1.showModal()">Не знаете?</button>
     <dialog id="my_modal_1" class="modal">
-        <div class="modal-box">
-            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div class="modal-box relative">
+            <div class="modal-action m-0">
+                <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Закрыть</button>
+                </form>
+            </div>
+            <div class="pb-4 lg:pb-4 px-4 mx-auto max-w-screen-md">
                 <h2 class="mb-4 text-4xl text-center">Хотите связаться или оставить заявку?</h2>
-                <p class="mb-8 lg:mb-16 font-light text-center sm:text-xl">Оставьте свои данные и сообщение, я свяжусь с Вами</p>
+                <p class="mb-8 font-light text-center sm:text-xl">Оставьте свои данные и сообщение, я свяжусь с Вами</p>
                 <form action="#" class="space-y-8">
                     <div>
                         <label for="name" class="mb-2 text-sm font-medium">Имя</label>
@@ -140,12 +146,6 @@
                         <label for="terms" class="ms-2 text-sm font-medium">Оставляю свои персональные данные и ознакомлен(а) с <a href="#" class="text-blue-600 hover:underline">политикой конфиденциальности</a></label>
                     </div>
                     <button type="submit" class="btn py-3 px-5 text-sm font-medium text-center rounded-lg sm:w-fit">Отправить</button>
-                </form>
-            </div>
-            <div class="modal-action">
-                <form method="dialog">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button>
                 </form>
             </div>
         </div>
@@ -352,7 +352,7 @@
         <b class="font-bold">Стоимость разовой консультации 3.600 р за сессию<sup>*</sup></b>
         <p class="mt-10">Стоимость первой (диагностической) сессии -50% = 1600 р</p>
         <p class="text-xs mt-10 lg:mt-0"><sup>*</sup>продолжительность одной сессии: 50 минут</p>
-        <button class="btn w-full mt-10 sm:w-fit lg:hidden">Записаться</button>
+        <button class="btn w-full mt-10 sm:w-fit lg:hidden" onclick="my_modal_1.showModal()">Записаться</button>
         <div class="mt-10 grid lg:grid-cols-2 lg:gap-10">
             <div class="py-6 border-y-[1px] border-white lg:border-none flex justify-between lg:bg-base-200 lg:p-6">
                 <div class="font-bold">Пакет 6 сессий (-20%)</div>
