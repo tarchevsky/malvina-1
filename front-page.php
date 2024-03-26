@@ -292,7 +292,7 @@
     </div>
 
     <div class="overflow-x-auto mt-80 fade-in">
-        <h5>Цены 1</h5>
+        <h5>Цены 1 (цены не обновлял)</h5>
         <table class="table table-zebra">
             <thead>
             <tr>
@@ -322,33 +322,54 @@
     </div>
 
     <div class="mt-80 fade-in">
-        <h5 class="flex justify-center">Цены 2</h5>
+        <h5 class="flex justify-center">Цены 2 (обновлено)</h5>
         <div class="stat-table flex justify-center">
             <div class="stats shadow grid-rows-3 lg:grid-rows-1">
                 <div class="stat">
-                    <div class="stat-value">15 360 р</div>
+                    <div class="stat-value">19 440 р</div>
                     <div class="stat-title">Пакет 6 сессий (-20%)</div>
-<!--                    <div class="stat-desc">2 560 р - цена 1 занятия</div>-->
+                    <!--                    <div class="stat-desc">2 560 р - цена 1 занятия</div>-->
                 </div>
 
                 <div class="stat">
-                    <div class="stat-value">19 200 р</div>
+                    <div class="stat-value">24 480 р</div>
                     <div class="stat-title">Пакет 8 сессий (-25%)</div>
-<!--                    <div class="stat-desc">2 400 р - цена 1 занятия</div>-->
+                    <!--                    <div class="stat-desc">2 400 р - цена 1 занятия</div>-->
                 </div>
 
                 <div class="stat">
-                    <div class="stat-value">26 880 р</div>
+                    <div class="stat-value">34 560 р</div>
                     <div class="stat-title">Пакет 8 сессий (-25%)</div>
-<!--                    <div class="stat-desc">2 240 р - цена 1 занятия</div>-->
+                    <!--                    <div class="stat-desc">2 240 р - цена 1 занятия</div>-->
                 </div>
             </div>
         </div>
-        <div><p>Продолжительность одной сессии: 50 минут<br>Стоимость разовой консультации 3.200 р за сессию<br>Стоимость первой (диагностической) сессии -50% = 1600 р</p></div>
+        <div><p>Продолжительность одной сессии: 50 минут<br>Стоимость разовой консультации 3.600 р за сессию<br>Стоимость первой (диагностической) сессии -50% = 1600 р (возможно, здесь надо тоже обновить)</p></div>
     </div>
 
-    <div class="cont mt-80 fade-in">
+    <div class="mt-80 fade-in">
         <h5>Цены 3</h5>
+        <b class="font-bold">Стоимость разовой консультации 3.600 р за сессию<sup>*</sup></b>
+        <p class="mt-10">Стоимость первой (диагностической) сессии -50% = 1600 р</p>
+        <p class="text-xs mt-10 lg:mt-0"><sup>*</sup>продолжительность одной сессии: 50 минут</p>
+        <button class="btn w-full mt-10 sm:w-fit lg:hidden">Записаться</button>
+        <div class="mt-10 grid lg:grid-cols-2 lg:gap-10">
+            <div class="py-6 border-y-[1px] border-white lg:border-none flex justify-between lg:bg-base-200 lg:p-6">
+                <div class="font-bold">Пакет 6 сессий (-20%)</div>
+                <div>19 440 р</div>
+            </div>
+            <div class="py-6 flex justify-between lg:bg-base-200 lg:p-6">
+                <div class="font-bold">Пакет 8 сессий (-25%)</div>
+                <div>24 480 р</div>
+            </div>
+            <div class="lg:col-span-2 py-6 border-y-[1px] border-white lg:border-none flex justify-center lg:bg-base-200 lg:p-6 lg:w-[48.5%] lg:m-auto">
+                <div class="flex justify-between w-full lg:max-w-md">
+                    <div class="font-bold">Пакет 8 сессий (-25%)</div>
+                    <div>34 560 р</div>
+                </div>
+            </div>
+        </div>
+        <button class="btn mt-10 hidden lg:block lg:btn-lg m-auto">Записаться</button>
     </div>
 </div>
 
