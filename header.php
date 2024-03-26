@@ -40,6 +40,10 @@
           href="<?php echo get_template_directory_uri(); ?>/img/favicons/apple-touch-icon-180x180.png">
     <link rel="apple-touch-icon" sizes="1024x1024"
           href="<?php echo get_template_directory_uri(); ?>/img/favicons/apple-touch-icon-1024x1024.png">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <style>
         .tag-item {
             padding: 2px 5px;

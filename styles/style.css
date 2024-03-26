@@ -180,3 +180,37 @@ p {
 .cont-white a {
     color: #fff;
 }
+
+/*Swiper*/
+
+.slider-navigation {
+    position: relative;
+    min-height: 100px;
+}
+.slider-button-prev, .slider-button-next {
+    color: white;
+}
+.slider img {
+    margin-block: 0;
+}
+
+#slider-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    top: 50%;
+    bottom: revert;
+    transform: translateY(-50%);
+}
+#slider-pagination .swiper-pagination-bullet {
+    margin: 0;
+    background-color: white;
+}
+#slider .swiper-button-prev::after, #slider .swiper-button-next::after {
+    font-size: 15px;
+}
+
+#slide-beyond .slide-beyond-scrollbar.swiper-scrollbar {
+    width: 100%;
+    left: 0;
+}

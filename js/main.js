@@ -14,3 +14,21 @@ gsap.utils.toArray('.fade-in').forEach(item => {
         },
     });
 });
+
+const slider = new Swiper('.slider', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    speed: 200,
+    preloadImages: false,
+    lazy: true,
+    effect: 'fade',
+    pagination: {
+        el: '.slider-pagination.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.slider-button-next.swiper-button-next',
+        prevEl: '.slider-button-prev.swiper-button-prev',
+    },
+});

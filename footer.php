@@ -24,6 +24,7 @@
         <a class="link link-hover">Отдохни от развития</a>
     </nav>
 </footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 <?php wp_footer(); ?>
