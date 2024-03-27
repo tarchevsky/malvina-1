@@ -5,6 +5,7 @@
         <div class="max-w-md">
             <h1 class="text-5xl font-bold">Шаблон страницы блога</h1>
             <h2>Что будем делать дальше?</h2>
+            <?php the_content(); ?>
         </div>
     </div>
 </div>
