@@ -3,10 +3,11 @@
 <div class="hero min-h-screen bg-base-200">
     <div class="hero-content text-center">
         <div class="max-w-md">
-            <h1 class="text-5xl font-bold">Шаблон страницы блога</h1>
-            <h2>Что будем делать дальше?</h2>
-            <?php the_content(); ?>
+            <h1 class="text-5xl font-bold"><?php the_title(); ?></h1>
         </div>
+    </div>
+    <div class="mt-80">
+        <?php the_content(); ?>
     </div>
 </div>
 
