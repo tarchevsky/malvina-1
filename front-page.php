@@ -36,11 +36,10 @@
 <!--    <p class="flex-auto md:w-1/2">Мой подход как психолога по КПТ и коуча основан на научно обоснованной когнитивно-поведенческой терапии, которая помогает изменить неадаптивные мысли и поведение для улучшения эмоционального состояния и качества жизни моих клиентов.<br><br>Моя миссия – предоставить каждому клиенту эффективные инструменты КПТ для преодоления психологических трудностей и достижения личностного роста в онлайн-формате через изменение нездоровых (найти альтернативу) моделей мышления и поведения. В моем подходе я уделяю особое внимание выявлению и коррекции негативных автоматических мыслей, которые могут быть причиной тревожных, депрессивных состояний и других психологических проблем.</p><p class="flex-auto md:w-1/2">Мой подход как психолога по КПТ и коуча основан на научно обоснованной когнитивно-поведенческой терапии, которая помогает изменить неадаптивные мысли и поведение для улучшения эмоционального состояния и качества жизни моих клиентов.<br><br>Моя миссия – предоставить каждому клиенту эффективные инструменты КПТ для преодоления психологических трудностей и достижения личностного роста в онлайн-формате через изменение нездоровых (найти альтернативу) моделей мышления и поведения. В моем подходе я уделяю особое внимание выявлению и коррекции негативных автоматических мыслей, которые могут быть причиной тревожных, депрессивных состояний и других психологических проблем.</p>-->
     <div class="flex-auto md:w-1/2">
         <h2>Почему КПТ?</h2>
-        <p>Всё просто: эффективно, быстро, научно.<br><br>Во время когнитивно-поведенческой терапии клиенты получают навыки, которые практикуют во время сеанса с психологом, а так же в обычной жизни на протяжении всего периода работы со специалистом. После окончания лечения клиент больше не зависит от своего терапевта: он может самостоятельно оценивать свои мысли и убеждения, решать проблемы, выстраивать и поддерживать межличностные отношения, достигать амбициозных целей. КПТ ориентирована на разумно короткие сроки достижения ощутимого облегчения (6-12 встреч). Часто клиенты видят заметный результат уже через пару сессий, а выполняя домашние задания получают навыки самопомощи, что у них успешно получается.</p>
+        <p>Эффективно, быстро, научно.<br><br>Во время когнитивно-поведенческой терапии клиенты получают навыки, которые практикуют во время сеанса с психологом, а так же в обычной жизни на протяжении всего периода работы со специалистом. После окончания лечения клиент больше не зависит от своего терапевта: он может самостоятельно оценивать свои мысли и убеждения, решать проблемы, выстраивать и поддерживать межличностные отношения, достигать амбициозных целей. КПТ ориентирована на разумно короткие сроки достижения ощутимого облегчения (6-12 встреч). Часто клиенты видят заметный результат уже через пару сессий, а выполняя домашние задания получают навыки самопомощи, что у них успешно получается.</p>
     </div>
     <div class="relative md:w-1/3">
         <img src="<?php echo get_template_directory_uri(); ?>/img/malvina-2/IMG_E0280.jpg" class=" rounded-3xl object-cover" alt="">
-        <div class="md:w-1/2 md:flex-shrink-0 absolute bottom-[5px] right-10"><h2 class="md:ml-auto md:text-right">Подход и миссия</h2></div>
     </div>
 </div>
 
@@ -131,52 +130,6 @@
             </div>
         </div>
     </div>
-</div>
-
-<div class="cont mt-80">
-    <h4>Кто Вам нужен?</h4>
-    <div class="flex flex-col md:flex-row w-full justify-center">
-        <div class="grid md:w-1/2 h-20 flex-grow card bg-base-300 rounded-box place-items-center">Психотерапевт</div>
-        <div class="divider divider-horizontal m-auto md:w-20">или</div>
-        <div class="grid md:w-1/2 h-20 flex-grow card bg-base-300 rounded-box place-items-center">Коуч</div>
-    </div>
-    <!-- Open the modal using ID.showModal() method -->
-    <button class="btn btn-primary btn-lg mt-10 block m-auto" onclick="my_modal_1.showModal()">Не знаете?</button>
-    <dialog id="my_modal_1" class="modal">
-        <div class="modal-box relative">
-            <div class="modal-action m-0">
-                <form method="dialog">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Закрыть</button>
-                </form>
-            </div>
-            <div class="pb-4 lg:pb-4 px-4 mx-auto max-w-screen-md">
-                <h2 class="mb-4 text-4xl text-center">Хотите связаться или оставить заявку?</h2>
-                <p class="mb-8 font-light text-center sm:text-xl">Оставьте свои данные и сообщение, я свяжусь с Вами</p>
-                <form action="#" class="space-y-8">
-                    <div>
-                        <label for="name" class="mb-2 text-sm font-medium">Имя</label>
-                        <input type="text" id="name" class="input input-primary input-bordered p-4 w-full text-sm rounded-lg shadow-sm" placeholder="Как Вас зовут?" required>
-                    </div>
-                    <div>
-                        <label for="email" class="mb-2 text-sm font-medium">Ваша почта</label>
-                        <input type="email" id="email" class="input input-bordered input-primary p-4 w-full shadow-sm text-sm rounded-lg" placeholder="mail@mail.ru" required>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="message" class="mb-2 text-sm font-medium">Сообщение</label>
-                        <textarea id="message" rows="6" class="textarea textarea-bordered w-full pt-4 text-sm rounded-lg shadow-sm" placeholder="Оставьте сообщение или заявку"></textarea>
-                    </div>
-                    <div class="flex items-start mb-5">
-                        <div class="flex items-center h-5">
-                            <input id="terms" type="checkbox" value="" class="w-4 h-4 rounded" required />
-                        </div>
-                        <label for="terms" class="ms-2 text-sm font-medium">Оставляю свои персональные данные и ознакомлен(а) с <a href="#" class="text-blue-600 hover:underline">политикой конфиденциальности</a></label>
-                    </div>
-                    <button type="submit" class="btn py-3 px-5 text-sm font-medium text-center rounded-lg sm:w-fit">Отправить</button>
-                </form>
-            </div>
-        </div>
-    </dialog>
 </div>
 
 <div class="cont mt-80 fade-in">
