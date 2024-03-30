@@ -58,7 +58,7 @@
 <body class="relative">
 
 <header class="cont m-auto m-4 md:flex md:justify-between align-center py-2">
-    <a href="/" class="flex justify-center items-center md:justify-start py-4">Психолог <br>Мальвина</a>
+    <a href="/" class="flex justify-center items-center md:justify-start py-4">Мальвина <br>Психолог</a>
     <div class="header-search md:flex md:items-center md:ml-auto">
         <?php echo get_search_form(); ?>
     </div>
